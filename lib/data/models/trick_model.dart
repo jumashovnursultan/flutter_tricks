@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class TrickModel {
-  final String? name;
+  final String name;
   final TrickType? type;
   final Widget widget;
 
@@ -14,5 +14,6 @@ class TrickModel {
 
 enum TrickType {
   widget,
+  screen,
   dialog,
 }

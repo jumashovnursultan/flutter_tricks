@@ -9,7 +9,7 @@ class FirstWidget extends StatelessWidget {
       height: 100,
       width: 200,
       color: Colors.redAccent,
-      child: const Text('First Widget'),
+      child: const Center(child: Text('First Widget')),
     );
   }
 }
